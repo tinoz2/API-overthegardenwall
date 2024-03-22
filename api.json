@@ -1,0 +1,261 @@
+{
+    "Soundtracks": [
+        {
+            "id": 1,
+            "name": "Prelude",
+            "link": "https://www.youtube.com/watch?v=htnXgyBbiyg",
+            "duration": "1:32"
+        },
+        {
+            "id": 2,
+            "name": "Into the Unknown",
+            "link": "https://www.youtube.com/watch?v=bFQAcogDYvs",
+            "duration": "1:27"
+        },
+        {
+            "id": 3,
+            "name": "Patient is the Night",
+            "link": "https://www.youtube.com/watch?v=GamWQdQSWmY",
+            "duration": "1:27"
+        },
+        {
+            "id": 4,
+            "name": "Ms. Langtree's Lament",
+            "link": "https://www.youtube.com/watch?v=Pvj_e5-5bdc",
+            "duration": "2:27"
+        },
+        {
+            "id": 5,
+            "name": "Send Me a Peach",
+            "link": "https://www.youtube.com/watch?v=A8YkV5g32wU",
+            "duration": "2:02"
+        },
+        {
+            "id": 6,
+            "name": "Potatoes & Molasses",
+            "link": "https://www.youtube.com/watch?v=x7dJXmgOaEo",
+            "duration": "1:12"
+        },
+        {
+            "id": 7,
+            "name": "The Highwayman",
+            "link": "https://www.youtube.com/watch?v=UpeBr94p_wk",
+            "duration": "0:31"
+        },
+        {
+            "id": 8,
+            "name": "Adelaide Parade",
+            "link": "https://www.youtube.com/watch?v=z5JKXbhtSY8",
+            "duration": "1:38"
+        },
+        {
+            "id": 9,
+            "name": "The Old North Wind",
+            "link": "https://www.youtube.com/watch?v=GCkojsX_64E",
+            "duration": "1:03"
+        },
+        {
+            "id": 10,
+            "name": "Come Wayward Souls",
+            "link": "https://www.youtube.com/watch?v=AUofp5a0zUQ",
+            "duration": "1:51"
+        }
+    ],
+    "Characters": [
+        {
+            "id": 1,
+            "name": "Wirt",
+            "description": "Wirt is one of the two main protagonists of Over the Garden Wall. He views the world in a serious way.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/6/67/20141231_153421.JPG/revision/latest/scale-to-width-down/1000?cb=20150101124143",
+            "about": [
+                {
+                    "personality": "Wirt is a pessimistic realist in many ways, but also has a naive and childish side to him. He is easily scared and surprised, and even though he is far more perceptive than his brother, he is very much still a kid.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Teenager"
+        },
+        {
+            "id": 2,
+            "name": "Gregory",
+            "description": "Greg is one of the two main protagonists of Over the Garden Wall. He is adventurous and carefree.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/c/cd/Greg1.png/revision/latest/scale-to-width-down/1000?cb=20141126040255",
+            "about": [
+                {
+                    "personality": "Greg is optimistic and carefree, often seeing the bright side of situations. He is easily amused and tends to follow his impulses, which can lead to both joy and trouble.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Child"
+        },
+        {
+            "id": 3,
+            "name": "Beatrice",
+            "description": "Beatrice is a bluebird who has been cursed and turned into a human. She joins Wirt and Greg on their journey.",
+            "image": "https://imgs.search.brave.com/4ZBqlfvERCuf-dRaXn1t6wStCL8AixD1Jq-vnF5I-bQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wcmFj/dGljYWx0eXBpbmcu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzA3L2JlYXRy/aWNlLmpwZw",
+            "about": [
+                {
+                    "personality": "Beatrice is initially sarcastic and self-serving, but she gradually becomes more caring and loyal to Wirt and Greg. She is resourceful and often provides guidance on their journey.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Adult (in bird years)"
+        },
+        {
+            "id": 4,
+            "name": "The Woodsman",
+            "description": "The Woodsman is a mysterious figure who lives in the woods and carries a lantern filled with the souls of the dead.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/3/31/Woodsman_Comic.jpg/revision/latest?cb=20210727035603",
+            "about": [
+                {
+                    "personality": "The Woodsman is solemn and dedicated to his task of keeping his lantern lit. He is burdened by guilt and regret, but he is also compassionate and protective.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Adult"
+        },
+        {
+            "id": 5,
+            "name": "The Beast",
+            "description": "The Beast is a malevolent entity that lurks in the Unknown, seeking to ensnare lost souls.",
+            "image": "https://imgs.search.brave.com/lpveI_YAoLZEtSMSNwjTM1FTlRcDrhr48daUv3TpDwg/rs:fit:860:0:0/g:ce/aHR0cDovL2kuaW1n/dXIuY29tL1poVUFR/bVMuanBn",
+            "about": [
+                {
+                    "personality": "The Beast is manipulative and deceptive, preying on the fears and weaknesses of others to achieve his goals. He presents himself as charming and persuasive, but his true nature is sinister and malevolent.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Unknown"
+        },
+        {
+            "id": 6,
+            "name": "Quincy Endicott",
+            "description": "Quincy Endicott is a wealthy aristocrat who resides in a mansion surrounded by his prized pumpkin fields.",
+            "image": "https://static.wikia.nocookie.net/over-the-garden-wall/images/d/d7/Qui.png/revision/latest/scale-to-width-down/250?cb=20150726142847&path-prefix=es",
+            "about": [
+                {
+                    "personality": "Quincy Endicott is eccentric and obsessed with his pumpkin fields. He is rather reclusive and prefers the company of his pumpkins over people. Despite his quirks, he possesses a kind heart and is genuinely fond of his pumpkins.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Elderly"
+        },
+        {
+            "id": 7,
+            "name": "Auntie Whispers",
+            "description": "Auntie Whispers is a mysterious woman who resides in a cottage deep in the woods.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/8/83/Tumblr_nenrsugKaO1tskfsfo2_1280_v2.jpg/revision/latest?cb=20171228210901",
+            "about": [
+                {
+                    "personality": "Auntie Whispers is enigmatic and possesses magical abilities. She is protective of her home and the creatures that inhabit it, but she also harbors a dark secret.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Elderly"
+        },
+        {
+            "id": 8,
+            "name": "Sara",
+            "description": "Sara is a young girl who works at the tavern in the town of Pottsfield.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/b/b5/Sara2.png/revision/latest?cb=20141130234835",
+            "about": [
+                {
+                    "personality": "Sara is friendly and outgoing, always ready to lend a hand to those in need. She is proud of her work at the tavern and enjoys spending time with her friends.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Teenager"
+        },
+        {
+            "id": 9,
+            "name": "Adelaide of the Pasture",
+            "description": "Adelaide of the Pasture is the ruler of the mysterious and eerie town of Pottsfield.",
+            "image": "https://imgs.search.brave.com/vpvetF1QiOLShoKbiUFQo0z9zq0j5buUH6I1yD0nbkE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly82NC5t/ZWRpYS50dW1ibHIu/Y29tL2QzOGY1ZjM5/NzRkZGI5NGRkYWVi/ZDkxZmYwYTNjMjc1/L3R1bWJscl9pbmxp/bmVfbmx0MTBmZVVa/STFxZmt5NXVfNTAw/LnBuZw",
+            "about": [
+                {
+                    "personality": "Adelaide is charismatic and commanding, with an air of authority that demands respect. She cares deeply for the inhabitants of Pottsfield and is willing to go to great lengths to protect them.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Adult"
+        },
+        {
+            "id": 10,
+            "name": "Anna",
+            "description": "Anna is a lively and curious young girl who lives in the town of Pottsfield.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/5/52/Tumblr_neqdt92gPe1tskfsfo3_1280.jpg/revision/latest/scale-to-width-down/1000?cb=20141201005205",
+            "about": [
+                {
+                    "personality": "Anna is adventurous and always eager to explore the world around her. She has a kind heart and is quick to make friends with those she meets.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Child"
+        },
+        {
+            "id": 11,
+            "name": "Jason Funderberker",
+            "description": "Jason Funderberker, also known as Frog, is a talking frog encountered by Wirt and Greg during their journey.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/b/bc/Gregs_frog_2944.png/revision/latest?cb=20141204001710",
+            "about": [
+                {
+                    "personality": "Jason Funderberker is friendly and helpful, despite his amphibious nature. He assists Wirt and Greg on their quest and provides valuable insight along the way.",
+                    "gender": "Male (frog)"
+                }
+            ],
+            "Age": "Unknown"
+        },
+        {
+            "id": 12,
+            "name": "John Crops",
+            "description": "John Crops is a scarecrow brought to life by the Beast to serve as his minion.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/d/d6/John_Crops1.png/revision/latest/scale-to-width-down/1000?cb=20200906215131",
+            "about": [
+                {
+                    "personality": "John Crops is obedient to the Beast's commands and carries out his tasks without question. However, deep down, he yearns for freedom and redemption.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Unknown"
+        },
+        {
+            "id": 13,
+            "name": "Lorna",
+            "description": "Lorna is a young girl who resides in the town of Pottsfield.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/9/9f/Lornaepilogue.png/revision/latest/scale-to-width-down/1000?cb=20150213142739",
+            "about": [
+                {
+                    "personality": "Lorna is gentle and soft-spoken, with a shy demeanor. She enjoys spending time with her friends and helping out around the town.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Child"
+        },
+        {
+            "id": 15,
+            "name": "Fred",
+            "description": "Fred is a talking horse who becomes an unexpected companion to Wirt and Greg during their journey through the Unknown.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/c/c6/Fredthehorse.png/revision/latest?cb=20141115204711",
+            "about": [
+                {
+                    "personality": "Fred is wise and insightful, despite his comical appearance as a talking horse. He provides guidance and support to Wirt and Greg, often offering words of wisdom and encouragement.",
+                    "gender": "Male"
+                }
+            ],
+            "Age": "Unknown"
+        },
+        {
+            "id": 16,
+            "name": "Miss Langtree",
+            "description": "Miss Langtree is a schoolteacher who resides in the town of Pottsfield.",
+            "image": "https://static.wikia.nocookie.net/tome-of-the-unknown/images/4/4c/Langtree.png/revision/latest?cb=20141117054152",
+            "about": [
+                {
+                    "personality": "Miss Langtree is kind-hearted and dedicated to her students' education. She is patient and nurturing, always striving to create a positive learning environment.",
+                    "gender": "Female"
+                }
+            ],
+            "Age": "Adult"
+        }
+    ]
+}
