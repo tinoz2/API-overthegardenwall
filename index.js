@@ -13,7 +13,7 @@ app.use(cors({
     origin: 'http://localhost:5173'
 }))
 
-app.use('/api', ApiRoute)
+app.use('api-overthegardenwall-production.up.railway.app/api', ApiRoute)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
