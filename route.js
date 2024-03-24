@@ -13,7 +13,7 @@ router.get('/soundtracks', getSoundtracks)
 
 router.get('/character/:id', getCharacter)
 
-router.get('soundtrack/:id', getSoundtrack)
+router.get('/soundtrack/:id', getSoundtrack)
 
 // POST
 

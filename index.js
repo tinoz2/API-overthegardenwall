@@ -2,6 +2,7 @@ import express from 'express'
 import morgan from 'morgan'
 import ApiRoute from './route.js'
 import cors from 'cors'
+import connectDB from './db.js'
 
 const app = express()
 const PORT = process.env.PORT || 8080
@@ -17,4 +18,5 @@ app.use('/api', ApiRoute)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
+    connectDB()
 })
