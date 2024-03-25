@@ -8,8 +8,8 @@ const Features = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
                 </svg>
             </div>
-            <div className="grid grid-cols-2 mt-4">
-                <div className="border-2 p-8 mr-4 my-4 border-crud rounded-md bg-white">
+            <div className="grid grid-cols-2 mt-4 sm:grid-cols-1">
+                <div className="border-2 p-8 mr-4 my-4 border-crud rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">CRUD Operations</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.3} stroke="currentColor" className="w-7 h-7 text-crud">
@@ -20,7 +20,7 @@ const Features = () => {
                         <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in et, praesentium quo non minima laboriosam illum itaque soluta.</p>
                     </div>
                 </div>
-                <div className="border-2 p-8 ml-4 my-4 border-jwt rounded-md bg-white">
+                <div className="border-2 p-8 ml-4 my-4 border-jwt rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">JWT Authentication</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.3} stroke="currentColor" className="w-7 h-7 text-jwt">
@@ -31,7 +31,7 @@ const Features = () => {
                         <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in et, praesentium quo non minima laboriosam illum itaque soluta.</p>
                     </div>
                 </div>
-                <div className="border-2 p-8 mr-4 my-4 border-route rounded-md bg-white">
+                <div className="border-2 p-8 mr-4 my-4 border-route rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">Route management</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 text-route">
@@ -42,7 +42,7 @@ const Features = () => {
                         <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in et, praesentium quo non minima laboriosam illum itaque soluta.</p>
                     </div>
                 </div>
-                <div className="border-2 p-8 ml-4 my-4 border-error rounded-md bg-white">
+                <div className="border-2 p-8 ml-4 my-4 border-error rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">Error handling</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 text-error">
@@ -53,7 +53,7 @@ const Features = () => {
                         <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in et, praesentium quo non minima laboriosam illum itaque soluta.</p>
                     </div>
                 </div>
-                <div className="border-2 p-8 mr-4 my-4 border-characters rounded-md bg-white">
+                <div className="border-2 p-8 mr-4 my-4 border-characters rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">Characters & Soundtracks</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 text-characters">
@@ -64,7 +64,7 @@ const Features = () => {
                         <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in et, praesentium quo non minima laboriosam illum itaque soluta.</p>
                     </div>
                 </div>
-                <div className="border-2 p-8 ml-4 my-4 border-postman rounded-md bg-white">
+                <div className="border-2 p-8 ml-4 my-4 border-postman rounded-md bg-white sm:mx-0">
                     <div className="flex mb-2 justify-between">
                         <strong className="text-2xl">Postman & ThunderClient</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.3} stroke="currentColor" className="w-7 h-7 text-postman">

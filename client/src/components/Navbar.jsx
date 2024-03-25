@@ -7,26 +7,23 @@ import logo from '../img/a.jpg'
 const NavbarComponent = () => {
     return (
         <Navbar className="bg-navbar shadow-md"
-            fluid={false}
-            >
+            fluid={true}
+        >
             <Navbar.Container className="flex items-center justify-between p-4">
                 <Navbar.Brand className="flex items-center">
-                    <img className="w-24 rounded-full" src={logo} alt="" />
-                    <h1 className="ml-6 text-3xl text-white font-medium">Garden API.</h1>
+                    <img className="w-24 rounded-full sm:w-20" src={logo} alt="" />
+                    <h1 className="ml-6 text-3xl text-white font-medium sm:text-2xl">Garden API.</h1>
                 </Navbar.Brand>
 
                 <Navbar.Container className="flex items-center gap-6">
                     <Navbar.Container
                         tag="ul"
-                        className="lg:flex hidden items-center justify-between gap-4"
+                        className="lg:flex items-center justify-between gap-4"
                     >
                         <Navbar.Link
                             icon={<GithubLogo size={30} color="#fff" />}
                             iconAnimation={true}
                         />
-                    </Navbar.Container>
-                    <Navbar.Container className="flex gap-1">
-                        <Navbar.Toggle className="block" />
                     </Navbar.Container>
                 </Navbar.Container>
                 <Navbar.Collapse

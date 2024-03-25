@@ -34,7 +34,7 @@ const AllAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink'>https://api.escuelajs.co/api/v1/products</span>
+                            <span id='apiLink'>https://api-overthegardenwall-production.up.railway.app/api</span>
                         </p>
                     </div>
                     <div className='list-none flex'>
@@ -58,7 +58,7 @@ const AllAPI = () => {
                         <p>      "name": </p> <span className='text-main'>"Prelude"</span>
                     </div>
                     <div className='flex'>
-                        <p>      "link": </p> <span className='text-main'>"https://www.youtube.com/watch?v=htnXgyBbiyg"</span>
+                        <p>      "link": </p> <span className='text-main break-all text-pretty'>"https://www.youtube.com/watch?v=htnXgyBbiyg"</span>
                     </div>
                     <div className='flex'>
                         <p>      "duration": </p> <span className='text-main'>"1:11"</span>

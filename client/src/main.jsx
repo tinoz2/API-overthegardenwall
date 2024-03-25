@@ -13,9 +13,9 @@ import CharactersAPI from './components/API/CharactersAPI.jsx'
 
 const APIRoutes = () => {
   return (
-    <div className="flex">
+    <div className="flex sm:m-4">
       <SidebarComponent />
-      <div className="flex flex-grow justify-center">
+      <div className="flex flex-grow justify-center sm:justify-normal">
         <Routes>
           <Route path="all" element={<AllAPI />} />
           <Route path="postman" element={<PostmanAPI />} />

@@ -22,6 +22,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import '../sidebar.css'
+import { ArrowBendDownLeft } from "phosphor-react";
 
 const SidebarComponent = () => {
     const [open, setOpen] = React.useState(0);
@@ -31,7 +32,7 @@ const SidebarComponent = () => {
     };
 
     return (
-        <Card className="w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none bg-sidebar text-white">
+        <Card className="w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none bg-sidebar text-white sm:hidden">
             <List>
                 <Accordion
                     open={open === 1}
@@ -121,6 +122,14 @@ const SidebarComponent = () => {
                         </List>
                     </AccordionBody>
                 </Accordion>
+                <ListItem>
+                    <Link className="text-base font-semibold flex items-center w-72" to="/">
+                        <ListItemPrefix>
+                            <ArrowBendDownLeft strokeWidth={2} className="h-5 w-5" />
+                        </ListItemPrefix>
+                        Go Back
+                    </Link>
+                </ListItem>
             </List>
             <Outlet />
         </Card>

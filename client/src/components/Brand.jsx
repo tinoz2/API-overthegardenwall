@@ -21,8 +21,8 @@ const Brand = () => {
     return (
         <section className='flex items-center justify-between' style={{ height: 'calc(100vh - 130px)' }}>
             <div>
-                <h2 className='text-7xl font-semibold'>Garden API</h2>
-                <p className='mb-16 mt-2 font-semibold'>Explore our API of Over the garden wall.</p>
+                <h2 className='text-7xl font-semibold sm:text-4xl'>Garden API</h2>
+                <p className='mb-16 mt-2 font-semibold sm:text-sm'>Explore our API of Over the garden wall.</p>
                 <Link to='/api/all' className="noselect button">
                     <span className="text">Get started</span>
                     <span className="icon">

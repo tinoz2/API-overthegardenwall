@@ -21,6 +21,10 @@ export default {
         postman: '#FF9300',
         sidebar: '#49321D',
       }
+    },
+    screens: {
+      'sm': {'max': '576px'},
+      'md': {'min': '576px'},
     }
   }
 };
