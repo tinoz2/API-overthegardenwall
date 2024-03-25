@@ -1,8 +1,14 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 
 const AllAPI = () => {
+
+    useEffect(() => {
+        document.title = "Garden API | API"
+    }, [])
+
 
     const copyToClipboard = () => {
         const apiLink = document.getElementById('apiLink').innerText;

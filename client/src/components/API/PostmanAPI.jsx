@@ -2,8 +2,13 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
 import postman from '../../img/postman.png'
+import { useEffect } from 'react';
 
 const PostmanAPI = () => {
+
+    useEffect(() => {
+        document.title = "Garden API | Postman"
+    }, [])
 
     return (
         <div className='w-1/2'>

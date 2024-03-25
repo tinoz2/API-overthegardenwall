@@ -3,8 +3,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
 import thunderclient from '../../img/thunderclient.png'
 import thundervsc from '../../img/thundervsc.png'
+import { useEffect } from 'react';
 
 const ThunderClientAPI = () => {
+
+    useEffect(() => {
+        document.title = "Garden API | ThunderClient"
+    }, [])
 
     return (
         <div className='w-1/2'>

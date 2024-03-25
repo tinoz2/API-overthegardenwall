@@ -1,7 +1,13 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
+
 const SoundtracksAPI = () => {
+
+    useEffect(() => {
+        document.title = "Garden API | Soundtracks"
+    }, [])
 
     const copyToClipboard = () => {
         const apiLink = document.getElementById('apiLink').innerText;

@@ -1,8 +1,14 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 
 const CharactersAPI = () => {
+
+    useEffect(() => {
+        document.title = "Garden API | Characters"
+    }, [])
+
 
     const copyToClipboard = () => {
         const apiLink = document.getElementById('apiLink').innerText;
@@ -161,7 +167,7 @@ const CharactersAPI = () => {
                     <div className='flex'>
                         <p>      "description": </p> <span className='text-main text-pretty'>"Beatrice is a bluebird who has been cursed and turned into a human. She joins Wirt and Greg on their journey."</span>
                     </div>
-                    <div className='flex' style={{wordBreak: 'break-word'}}>
+                    <div className='flex' style={{ wordBreak: 'break-word' }}>
                         <p>      "image": </p> <span className='text-main text-pretty'>https://imgs.search.brave.com/4ZBqlfvERCuf-dRaXn1t6wStCL8AixD1Jq-vnF5I-bQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wcmFj/dGljYWx0eXBpbmcu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzA3L2JlYXRy/aWNlLmpwZw</span>
                     </div>
                     <p>      "about": [</p>
