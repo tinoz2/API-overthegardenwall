@@ -1,5 +1,6 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { api } from '../api';
 
 const FetchApi = () => {
 
@@ -31,7 +32,7 @@ const FetchApi = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink' className='text-pretty break-all'>https://api-overthegardenwall.up.railway.app/api/soundtracks</span>
+                            <span id='apiLink' className='text-pretty break-all'>{api + '/soundtracks'}</span>
                         </p>
                     </div>
                     <div className='list-none flex'>

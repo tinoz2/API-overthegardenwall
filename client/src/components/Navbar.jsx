@@ -3,6 +3,7 @@ import {
     GithubLogo,
 } from "phosphor-react";
 import logo from '../img/a.jpg'
+import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
     return (
@@ -12,7 +13,7 @@ const NavbarComponent = () => {
             <Navbar.Container className="flex items-center justify-between p-4">
                 <Navbar.Brand className="flex items-center">
                     <img className="w-24 rounded-full sm:w-20" src={logo} alt="" />
-                    <h1 className="ml-6 text-3xl text-white font-medium sm:text-2xl">Garden API.</h1>
+                    <h1 className="ml-6 text-3xl text-white font-medium sm:text-2xl"><Link to='/'>Garden API.</Link></h1>
                 </Navbar.Brand>
 
                 <Navbar.Container className="flex items-center gap-6">

@@ -2,6 +2,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react';
+import { api } from '../../api';
 
 const SoundtracksAPI = () => {
 
@@ -54,7 +55,7 @@ const SoundtracksAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink' className='text-pretty break-all'>https://api-overthegardenwall.up.railway.app/api/soundtracks</span>
+                            <span id='apiLink' className='text-pretty break-all'>{api + '/soundtracks'}</span>
                         </p>
                     </div>
                     <div className='list-none flex'>
@@ -115,7 +116,7 @@ const SoundtracksAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink2' className='text-pretty break-all'>https://api-overthegardenwall.up.railway.app/api/soundtrack/3</span>
+                            <span id='apiLink2' className='text-pretty break-all'>{api + '/soundtrack/3'}</span>
                         </p>
                     </div>
                     <div className='list-none flex'>

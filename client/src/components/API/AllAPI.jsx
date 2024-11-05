@@ -2,6 +2,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react';
+import { api } from '../../api';
 
 const AllAPI = () => {
 
@@ -40,7 +41,7 @@ const AllAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink'>https://api-overthegardenwall.up.railway.app/api</span>
+                            <span id='apiLink'>{api}</span>
                         </p>
                     </div>
                     <div className='list-none flex'>

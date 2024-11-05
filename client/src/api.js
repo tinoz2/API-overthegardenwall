@@ -1,0 +1,1 @@
+export const api = 'https://api-overthegardenwall-1.onrender.com/api'
