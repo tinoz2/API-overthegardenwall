@@ -55,7 +55,7 @@ const CharactersAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink'>https://api-overthegardenwall-production.up.railway.app/api/characters</span>
+                            <span id='apiLink'>https://api-overthegardenwall.up.railway.app/api/characters</span>
                         </p>
                     </div>
                     <div className='list-none flex'>
@@ -142,7 +142,7 @@ const CharactersAPI = () => {
                     <div>
                         <p className="font-mono text-white">
                             <span className="font-bold">[GET] </span>
-                            <span id='apiLink2'>https://api-overthegardenwall-production.up.railway.app/api/character/3</span>
+                            <span id='apiLink2'>https://api-overthegardenwall.up.railway.app/api/character/3</span>
                         </p>
                     </div>
                     <div className='list-none flex'>
