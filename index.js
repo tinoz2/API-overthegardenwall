@@ -14,11 +14,7 @@ app.use(cors({
     origin: 'http://localhost:5173'
 }))
 
-app.use('/api', ApiRoute)
-app.get('/', (req,res) => {
-    const htmlResponse = `<html><head></head><body><h1>pepe</h1></body></html>`
-    res.send(htmlResponse)
-})
+app.use('/', ApiRoute)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
